@@ -22,8 +22,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: voltage clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4355441449
-  numberOfFiles: 86
+  numberOfBytes: 4405988367
+  numberOfFiles: 87
   numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
@@ -91,6 +91,7 @@ contributor:
   schemaKey: Organization
   url: https://www.nimh.nih.gov/
 dateCreated: '2025-10-13T14:10:08.485243+00:00'
+datePublished: '2025-10-20T16:39:38.451026+00:00'
 description: HMBA Lein PatchSeq upload (human) (Q3 2025)
 ethicsApproval: []
 id: DANDI:001625/draft
@@ -104,10 +105,24 @@ manifestLocation:
 name: 20251020_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+publishedBy:
+  endDate: '2025-10-20T16:39:38.451026+00:00'
+  id: urn:uuid:7691fec4-ec72-4d20-a896-4b10cd4fbe05
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-10-20T16:39:38.451026+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:4e29dfdc-6c87-46b7-badc-22025951de56
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
+studyTarget:
+- Multimodal classifcation of cell types in the human.
 url: https://dandiarchive.org/dandiset/001625/draft
 version: draft
 wasGeneratedBy: []
